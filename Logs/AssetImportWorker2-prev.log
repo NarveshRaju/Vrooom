@@ -1,0 +1,555 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16051 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Narvesh/Downloads/car simulation/car simulation
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51641
+Successfully changed project path to: C:/Users/Narvesh/Downloads/car simulation/car simulation
+C:/Users/Narvesh/Downloads/car simulation/car simulation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21036] Host "[IP] 192.168.29.161 [Port] 0 [Flags] 2 [Guid] 2283138465 [EditorId] 2283138465 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-C8JF9T47) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21036] Host "[IP] 192.168.29.161 [Port] 0 [Flags] 2 [Guid] 2283138465 [EditorId] 2283138465 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-C8JF9T47) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 1781.93 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 17.24 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Narvesh/Downloads/car simulation/car simulation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6109
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014853 seconds.
+- Loaded All Assemblies, in  0.860 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1464ms
+	BeginReloadAssembly (231ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (231ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (256ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Narvesh\Downloads\car simulation\car simulation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Narvesh\Downloads\car simulation\car simulation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  8.739 seconds
+Refreshing native plugins compatible for Editor in 8.68 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.375 seconds
+Domain Reload Profiling: 11110ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (8285ms)
+		LoadAssemblies (7647ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (761ms)
+			TypeCache.Refresh (668ms)
+				TypeCache.ScanAssembly (643ms)
+			ScanForSourceGeneratedMonoScriptInfo (65ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2378ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1973ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (1733ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 19.52 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 5519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (0.8 MB). Loaded Objects now: 5990.
+Memory consumption went from 239.6 MB to 238.9 MB.
+Total: 11.938200 ms (FindLiveObjects: 1.884300 ms CreateObjectMapping: 0.806100 ms MarkObjects: 8.007600 ms  DeleteObjects: 1.237100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4710.720448 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png
+  artifactKey: Guid(bd0d469704e7c934ebddc45ece4c1868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png using Guid(bd0d469704e7c934ebddc45ece4c1868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9c016cc2913c51c1673ce90ad7e9e3') in 0.133389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Prefabs/Car.prefab
+  artifactKey: Guid(0e7ee4df08df88c4880f43398f9ad2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Prefabs/Car.prefab using Guid(0e7ee4df08df88c4880f43398f9ad2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57888e75ae3a60f3b8bab3421e2e8572') in 0.372016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyGrey.mat
+  artifactKey: Guid(d425c5c4cb38fd44f95b13e9f94575c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Materials/SkyCarBodyGrey.mat using Guid(d425c5c4cb38fd44f95b13e9f94575c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6b14c6daa5013f2d133486c7f226c2') in 0.097458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Audio/AccelerationLow.wav
+  artifactKey: Guid(c4d8928c75c21af43998193f0f038429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Audio/AccelerationLow.wav using Guid(c4d8928c75c21af43998193f0f038429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77c9e19fb2e3f695aedc407b356434e') in 0.084231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Audio/Skid.wav
+  artifactKey: Guid(bd9566abdbf08834281bfb4ea8b92a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Audio/Skid.wav using Guid(bd9566abdbf08834281bfb4ea8b92a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b246eedac68a425ab961cb59852e3024') in 0.062636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Materials
+  artifactKey: Guid(7404f79cd1f1cf04492f2326283a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Materials using Guid(7404f79cd1f1cf04492f2326283a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36e787c8af659b176c01e9baf077456') in 0.001648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Materials/ParticleBurnout.mat
+  artifactKey: Guid(32314ba6cfa407640bffbb7b20708949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Materials/ParticleBurnout.mat using Guid(32314ba6cfa407640bffbb7b20708949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4238e908ae18c5bd71de8913fc3bd563') in 0.084127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Scripts
+  artifactKey: Guid(a04dfe54a44d18b459019efb35bdf808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Scripts using Guid(a04dfe54a44d18b459019efb35bdf808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55a09bc43941b61de029b267821ac61') in 0.001723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png
+  artifactKey: Guid(9486e5d1d37e86246b9bd1e314a8a721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png using Guid(9486e5d1d37e86246b9bd1e314a8a721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c574e431787c0c4b780db23eb2d7c12') in 0.029262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.915054 seconds.
+  path: Assets/house/source/horse/Materials/slats.mat
+  artifactKey: Guid(83a4b923e2549da41b1228289edb1242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/source/horse/Materials/slats.mat using Guid(83a4b923e2549da41b1228289edb1242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59181ed247c46ba3d431b37e6eba94cc') in 0.061644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.800300 seconds.
+  path: Assets/house/source/horse/Materials/slats_wood.mat
+  artifactKey: Guid(84d73a389d7c0bb4ab9d69627b91369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/source/horse/Materials/slats_wood.mat using Guid(84d73a389d7c0bb4ab9d69627b91369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362a63e7c1c66c9ea6933c6312826af5') in 0.023721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.024522 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/SlideArea.mat
+  artifactKey: Guid(52ea1dfacb3871344b9908d03fe18341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/SlideArea.mat using Guid(52ea1dfacb3871344b9908d03fe18341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05b8e758bdaba2cb197a7db62a8040a') in 0.055877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.092760 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Slippery.mat
+  artifactKey: Guid(580e85685c94186409cd8bb102eb7451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Slippery.mat using Guid(580e85685c94186409cd8bb102eb7451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9814bec416b79e6d78c517fe6364a61a') in 0.036869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015312 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/988/SlowTrafficAhead.mat
+  artifactKey: Guid(2a449c4d9c6d5f444a05cefdbc298964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/988/SlowTrafficAhead.mat using Guid(2a449c4d9c6d5f444a05cefdbc298964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a8f47ea66e2f783c691d86de8c654b') in 0.028145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.486421 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/861/SlowVehicles2.mat
+  artifactKey: Guid(a66de91d39101b74ab7bac90a83cb5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/861/SlowVehicles2.mat using Guid(a66de91d39101b74ab7bac90a83cb5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60b5b6d4048f5fac7b9982487311e65') in 0.037198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009415 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/SmallRoom/Materials/SmallRoomFabricMat.mat
+  artifactKey: Guid(8ad3dfbb5f0703a4f911a6aad201242c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/SmallRoom/Materials/SmallRoomFabricMat.mat using Guid(8ad3dfbb5f0703a4f911a6aad201242c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c43a7d8b53bd2c018fbde6fe6dd45a') in 0.192513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 55.422014 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs
+  artifactKey: Guid(3ea65b38d485c374caa584a03f1de571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs using Guid(3ea65b38d485c374caa584a03f1de571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910f9c6bf3570b465f11691999a8a2df') in 0.001066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Narvesh\Downloads\car simulation\car simulation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Narvesh\Downloads\car simulation\car simulation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.965 seconds
+Refreshing native plugins compatible for Editor in 6.93 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.305 seconds
+Domain Reload Profiling: 8268ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (712ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (329ms)
+				TypeCache.ScanAssembly (316ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (7306ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (642ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.61 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (0.7 MB). Loaded Objects now: 6051.
+Memory consumption went from 211.3 MB to 210.6 MB.
+Total: 6.396100 ms (FindLiveObjects: 0.468400 ms CreateObjectMapping: 0.221000 ms MarkObjects: 5.126300 ms  DeleteObjects: 0.577500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 203.304893 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs
+  artifactKey: Guid(96468c245ae8e0d4f8f1c7a7b8b0542e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs using Guid(96468c245ae8e0d4f8f1c7a7b8b0542e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a6f4cf0393b5768f73285453584d92') in 0.009118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 69.921960 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs
+  artifactKey: Guid(20fa55eb64c5cea4aa3c71ae19c434bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs using Guid(20fa55eb64c5cea4aa3c71ae19c434bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1262fd4344afe53cba20541594621ec1') in 0.002740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 99.358685 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs
+  artifactKey: Guid(d963df58504b69045b8d0d746ba6f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs using Guid(d963df58504b69045b8d0d746ba6f777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3155525e9aedb5b366c7d57510f9c7a') in 0.000829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.548764 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/CarGuidelines.txt
+  artifactKey: Guid(c51c09bcabc8c1441afe23a1da5fb6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/CarGuidelines.txt using Guid(c51c09bcabc8c1441afe23a1da5fb6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf69b48509b4f4e9ff34a904984d559') in 0.019043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Narvesh\Downloads\car simulation\car simulation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Narvesh\Downloads\car simulation\car simulation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.969 seconds
+Refreshing native plugins compatible for Editor in 11.26 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.841 seconds
+Domain Reload Profiling: 3807ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (722ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (376ms)
+				TypeCache.ScanAssembly (361ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2842ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (836ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (22ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (619ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.90 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (0.7 MB). Loaded Objects now: 6066.
+Memory consumption went from 211.3 MB to 210.6 MB.
+Total: 7.429400 ms (FindLiveObjects: 0.741200 ms CreateObjectMapping: 0.930300 ms MarkObjects: 5.166800 ms  DeleteObjects: 0.588900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 346.617228 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs
+  artifactKey: Guid(20fa55eb64c5cea4aa3c71ae19c434bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs using Guid(20fa55eb64c5cea4aa3c71ae19c434bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49282cf4f92c19defba2f08148a4352') in 0.005220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Narvesh\Downloads\car simulation\car simulation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Narvesh\Downloads\car simulation\car simulation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.072 seconds
+Refreshing native plugins compatible for Editor in 16.23 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.906 seconds
+Domain Reload Profiling: 2974ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (795ms)
+		LoadAssemblies (446ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (430ms)
+			TypeCache.Refresh (408ms)
+				TypeCache.ScanAssembly (394ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1907ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1043ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (773ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 17.29 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 5384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (0.7 MB). Loaded Objects now: 6081.
+Memory consumption went from 211.3 MB to 210.6 MB.
+Total: 8.103600 ms (FindLiveObjects: 1.203800 ms CreateObjectMapping: 0.485200 ms MarkObjects: 5.378100 ms  DeleteObjects: 1.034900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

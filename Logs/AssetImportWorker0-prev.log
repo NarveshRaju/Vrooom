@@ -1,0 +1,306 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16051 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Narvesh/Downloads/car simulation/car simulation
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51641
+Successfully changed project path to: C:/Users/Narvesh/Downloads/car simulation/car simulation
+C:/Users/Narvesh/Downloads/car simulation/car simulation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13992] Host "[IP] 192.168.29.161 [Port] 0 [Flags] 2 [Guid] 1817664961 [EditorId] 1817664961 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-C8JF9T47) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13992] Host "[IP] 192.168.29.161 [Port] 0 [Flags] 2 [Guid] 1817664961 [EditorId] 1817664961 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-C8JF9T47) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 1776.39 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 16.62 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Narvesh/Downloads/car simulation/car simulation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6109
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019233 seconds.
+- Loaded All Assemblies, in  0.861 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 1467ms
+	BeginReloadAssembly (225ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (244ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (288ms)
+				TypeCache.ScanAssembly (254ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (611ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Narvesh\Downloads\car simulation\car simulation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Narvesh\Downloads\car simulation\car simulation\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  8.774 seconds
+Refreshing native plugins compatible for Editor in 11.81 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.343 seconds
+Domain Reload Profiling: 11108ms
+	BeginReloadAssembly (280ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (8299ms)
+		LoadAssemblies (7622ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (797ms)
+			TypeCache.Refresh (693ms)
+				TypeCache.ScanAssembly (659ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (57ms)
+	FinalizeReload (2344ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1896ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (1656ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 21.93 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 5519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (0.7 MB). Loaded Objects now: 5990.
+Memory consumption went from 239.5 MB to 238.8 MB.
+Total: 18.594300 ms (FindLiveObjects: 2.424700 ms CreateObjectMapping: 1.008100 ms MarkObjects: 14.049700 ms  DeleteObjects: 1.105700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4710.795055 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Materials/ParticleSmokeWhite.mat
+  artifactKey: Guid(c617e7cbee0d2344a9b5e53116c43a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Materials/ParticleSmokeWhite.mat using Guid(c617e7cbee0d2344a9b5e53116c43a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76b5cda2883d64962409cd80590bb23') in 0.346444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Textures/ParticleCloudWhite.png
+  artifactKey: Guid(b16c22b4e3fa11d4b9e83f6fcfac8cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Textures/ParticleCloudWhite.png using Guid(b16c22b4e3fa11d4b9e83f6fcfac8cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb657e76ea17728b1d8bbe6829509ba') in 0.070263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Materials/TrailSkid.mat
+  artifactKey: Guid(f4dd0bba6decdd5418fd3d541ff5f7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Materials/TrailSkid.mat using Guid(f4dd0bba6decdd5418fd3d541ff5f7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667e43fba3dfc91d2e28c2a5e4bb4029') in 0.083307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelNormals.png
+  artifactKey: Guid(af58420b18450884782f4761c8f71952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelNormals.png using Guid(af58420b18450884782f4761c8f71952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3e64c27c6b0bdefa7fc71b1d3766a3') in 0.059149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Models
+  artifactKey: Guid(6368f4c411282e0448e9431054707929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Models using Guid(6368f4c411282e0448e9431054707929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2f793dea4af2da953d1a6cd2c7ea50') in 0.003785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat
+  artifactKey: Guid(bedcbcc4d577778478a5f01fe1415af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Materials/SkyCarLightCoversWhite.mat using Guid(bedcbcc4d577778478a5f01fe1415af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0f3cd8677c631f942d6c003db6497c') in 0.050888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png
+  artifactKey: Guid(6fc19647dd174e04e9793be879aea216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png using Guid(6fc19647dd174e04e9793be879aea216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005d48b3c79ed12b1cf638db5a19fd77') in 0.055262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat
+  artifactKey: Guid(965a4c3cf8f0acb408f15384c947b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Materials/SkyCarWheelGrey.mat using Guid(965a4c3cf8f0acb408f15384c947b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e394a7feb45729878ba2b5aa2ba0c03d') in 0.276100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.785211 seconds.
+  path: Assets/house/source/horse/Materials/slats 1.mat
+  artifactKey: Guid(f95bf28ce98b80949aee49f7bfbcb0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/source/horse/Materials/slats 1.mat using Guid(f95bf28ce98b80949aee49f7bfbcb0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9ed04a587efea73cbdcf62ad8f05a2') in 0.054543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.808395 seconds.
+  path: Assets/house/source/horse/Materials/slats_wood 1.mat
+  artifactKey: Guid(c71c3e1814606cd4aa2414e5e795c036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/house/source/horse/Materials/slats_wood 1.mat using Guid(c71c3e1814606cd4aa2414e5e795c036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a472f1691562df567d6c1b99595269a') in 0.023678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.024678 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Slides.mat
+  artifactKey: Guid(925d0cd65b0548141b0da6cd8f976954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/Diamond/General/Slides.mat using Guid(925d0cd65b0548141b0da6cd8f976954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ac5cc5e28880c7811d7eb3f15140c4') in 0.045547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.104530 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/396/SlowerTrafficKeepRight.mat
+  artifactKey: Guid(524a0c05e7a553942b2f22bb66d666e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/396/SlowerTrafficKeepRight.mat using Guid(524a0c05e7a553942b2f22bb66d666e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9255166fca0d13c32de9f96ce7273135') in 0.038021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012652 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/861/SlowVehicles.mat
+  artifactKey: Guid(e8d8c5343afef6147b1907a4274de88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/861/SlowVehicles.mat using Guid(e8d8c5343afef6147b1907a4274de88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8996e63658bbddcdfa48c54a800f8c8c') in 0.037569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.477820 seconds.
+  path: Assets/RoadArchitect/Materials/FedSigns/330/SlowVehiclesTurn.mat
+  artifactKey: Guid(f07c57fe45f5adb4a9ca90e51051ff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RoadArchitect/Materials/FedSigns/330/SlowVehiclesTurn.mat using Guid(f07c57fe45f5adb4a9ca90e51051ff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e42680a97867162a99076f134de93f6') in 0.039502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007588 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/SmallRoomFabricMat.mat
+  artifactKey: Guid(1763fc9a4692c3342a463a94fe70f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Materials/SmallRoomFabricMat.mat using Guid(1763fc9a4692c3342a463a94fe70f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ff0acc7c8deb1a6a206c1fa7510ed0') in 0.182838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
